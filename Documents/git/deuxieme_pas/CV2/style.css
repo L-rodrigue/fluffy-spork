@@ -1,0 +1,92 @@
+body{
+  background-color: black;
+  background-image: url("/home/popuser/Documents/CV2/imgs/ess 1.png");
+  background-attachment:fixed;
+  margin: 0px;
+}
+
+
+.navbar {
+  left: 0;
+  right: 0;
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  padding: 0 15px;
+  
+  background-color:white;
+}
+.home{
+  float: left;
+  text-decoration: none;
+  
+}
+
+
+nav a {
+  float: right;
+  padding: 16.5px 15px;
+  color: black;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #D38338;
+}
+
+.title{
+  margin-top: 120px;
+  margin-left: 360px;
+  color: white;
+  font-size: 24px;
+}
+.p-header{
+  color: white;
+  margin-left: 360px;
+  margin-top: 100px;
+}
+.bouton{
+  left: 500px;
+  top: 330px;
+  position: absolute;
+  width: 80px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: #D38338;
+}
+.bouton:hover{
+  opacity: 0.8;
+}
+.container-about{
+  margin-top: 400px;
+  height: 815px;
+  background-color:white;
+}
+
+.container-about:active{
+  color: #D38338;
+}
+.about{
+  align-items: center;
+  padding: 2rem;
+  margin:0 168px;
+  font-size: 24px;
+}
+.p-about{
+  font-size: 16px;
+}
+.container-competences{
+  height: 900px;
+}
+.container-realisations{
+  height: 960px;
+  background-color: white;
+}
+.container-contact{
+  height: 750px;
+}
+footer{
+  height: 190px;
+  background-color: white;
+  margin-bottom: 0;
+}
